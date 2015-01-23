@@ -4,10 +4,11 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Coda:800' rel='stylesheet' type='text/css'>
   </head>
   <body ng-controller="mainCtrl">
     <div class="main-container">
-      <h1> DevMountain Chat Room </h1>
+      <h1 class="chat-header"> DevMountain Chat Room </h1>
       <form ng-submit="postData()">
         <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
       </form>
